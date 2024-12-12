@@ -11,6 +11,7 @@ body{
     background-color: #529ffa;
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 100vh;
 }
 
@@ -33,6 +34,7 @@ body{
 .pricing-plan img{
     width: 200px;
     height: 200px;
+    padding-top: 50px;
 }
 
 .pricing-plan:last-child{
@@ -100,7 +102,7 @@ body{
     color: white;
 }
 
-@media (min-width: 900px){
+@media (min-width: 1000px){
     .panel{
         flex-direction: row;
     }
